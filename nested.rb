@@ -3,12 +3,12 @@ def hopper
 	programmer_hash = 
  		{
         :grace_hopper => {
-          :known_for => "COBOL",
-          :languages => ["COBOL", "FORTRAN"]
+          :known_for => 
+          :languages => 
         },
         :alan_kay => {
-          :known_for => "Object Orientation",
-          :languages => ["Smalltalk", "LISP"]
+          :known_for => "COBOL",
+          :languages => ["COBOL", "FORTRAN"]
         },
         :dennis_ritchie => {
           :known_for => "Unix",
