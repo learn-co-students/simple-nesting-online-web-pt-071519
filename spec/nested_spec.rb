@@ -1,5 +1,6 @@
 require_relative "spec_helper"
 require_relative "../nested.rb"
+require "pry"
 
 describe "nested hash" do 
   describe "#hopper" do 
@@ -28,12 +29,16 @@ describe "nested hash" do
   end
 
   describe "#changing_alan" do 
+   
     it "operates on the programmer_hash and changes what Alan Kay is known for, returning the newly-changed hash" do 
       expect(changing_alan[:alan_kay][:known_for]).to eq("GUI")
     end
   end
 
+
   describe "#adding_to_dennis" do 
+    
+    
     it "operates on the programmer_hash and adds 'Assembly' to Dennis Ritchie's languages, returning the newly-added-to-hash" do 
       expect(adding_to_dennis[:dennis_ritchie][:languages][1]).to include("Assembly")
     end
